@@ -141,7 +141,7 @@ public class AlquilerBicicletas {
         if (!registrado) {
             System.out.println("Cliente registrado correctamente");
             clientes.add(new Cliente(nombreCliente, dniCliente, new ArrayList<>()));
-            //alquileres es null, ya que solo estamos registrando el cliente
+            //hay que inicializar la lista alquileres, ya que solo estamos registrando el cliente
         }
 
     }
